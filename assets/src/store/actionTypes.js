@@ -1,0 +1,3 @@
+export const FLIGHT_START = "FLIGHT_START";
+export const FLIGHT_SUCCESS = "FLIGHT_SUCCESS";
+export const FLIGHT_ERROR = "FLIGHT_ERROR";

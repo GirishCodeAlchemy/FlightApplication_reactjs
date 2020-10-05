@@ -1,0 +1,12 @@
+.centered {
+    position: fixed;
+    right: 50%;
+    top: 10%;
+}
+
+.tableCentered {
+    width: 100%;
+    /* left: 20%; */
+    position: fixed;
+    top: 40%;
+}

@@ -8,6 +8,9 @@ module.exports = {
         path: __dirname + '/.tmp/public',
         filename: 'bundle.js'
     },
+    resolve: {
+        extensions: ['.js', '.jsx', '.css']
+    },
     module: {
         rules: [
             {
@@ -20,6 +23,7 @@ module.exports = {
                 test: /\.css$/
             }
         ]
+
     },
 
     plugins: [
